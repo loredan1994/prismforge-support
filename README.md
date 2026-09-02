@@ -1,13 +1,26 @@
 # Prism Forge web pages
 
-Two static pages required by App Store Connect and TestFlight external testing:
+Three static pages for App Store support and legal disclosure:
 
 - `index.html` — support page (App Store "Support URL", TestFlight feedback pointer)
 - `privacy.html` — privacy policy (App Store "Privacy Policy URL", required even for
   apps that collect nothing)
+- `terms.html` — terms page linking to Apple's Standard EULA
+
+Published copies:
+
+- Support URL: `https://loredan1994.github.io/prismforge-support/`
+- Privacy policy URL: `https://loredan1994.github.io/prismforge-support/privacy.html`
 
 No JavaScript, no analytics, no external resources — the pages keep the same
 privacy promise as the app.
+
+The Prism Forge Help Scout alias and exact Cloudflare route are active. The
+current GitHub Pages URLs remain the live App Store values until a real
+inbound/reply test and the `prismforge.calimanu.com` site are verified. The
+intended production URLs are `https://prismforge.calimanu.com/support`,
+`/privacy`, and `/terms`; do not push those URLs to App Store Connect before
+they return the checked-in pages over HTTPS.
 
 ## Publishing with GitHub Pages (one-time, ~2 minutes)
 
@@ -30,5 +43,7 @@ zero-maintenance option.
 
 ## Before publishing
 
-- Confirm the contact email in both pages (currently `loredan6@live.com`).
-- If the App Store name ends up different from "Prism Forge", update the titles.
+- Confirm the contact email in both pages (currently `prismforge-support@calimanu.com`).
+- Page `<title>`s track the App Store listing name, currently "Prism Forge
+  Block Puzzle". The `<h1>`s stay "Prism Forge" — that is the brand and the
+  on-device display name. Update the titles if the listing name changes again.
