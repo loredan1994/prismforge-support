@@ -15,12 +15,12 @@ Published copies:
 No JavaScript, no analytics, no external resources — the pages keep the same
 privacy promise as the app.
 
-The Prism Forge Help Scout alias and exact Cloudflare route are active. The
-current GitHub Pages URLs remain the live App Store values until a real
-inbound/reply test and the `prismforge.calimanu.com` site are verified. The
-intended production URLs are `https://prismforge.calimanu.com/support`,
-`/privacy`, and `/terms`; do not push those URLs to App Store Connect before
-they return the checked-in pages over HTTPS.
+The Prism Forge Help Scout alias and exact Cloudflare route are active. These
+GitHub Pages URLs were published and verified on 2026-09-03 and remain the live
+App Store values. A real inbound/reply test is still required. The optional
+vanity URLs are `https://prismforge.calimanu.com/support`, `/privacy`, and
+`/terms`; do not push them to App Store Connect before they return the same
+checked-in pages over HTTPS.
 
 ## Publishing with GitHub Pages (one-time, ~2 minutes)
 
